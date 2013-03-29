@@ -1,0 +1,17 @@
+{
+    "name": "mikehaertl/translatable",
+    "description": "Yii dependency that allows to flush records from the cache",
+    "keywords": ["yii","cache","flush"],
+    "homepage": "https://github.com/mikehaertl/flushable",
+    "type": "yii-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Haertl",
+            "email": "haertl.mike@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    }
+}
