@@ -44,7 +44,8 @@ class FlushableDependency extends CCacheDependency
      * Allows to use the same $id among different $types.
      */
     public $type;
-
+    
+ 
     /**
      * Constructor.
      * @var mixed $id a unique identifier for the cached content (e.g. the Pk)
@@ -86,6 +87,6 @@ class FlushableDependency extends CCacheDependency
      */
     public static function createKey($id,$type=null)
     {
-        return '__flushableDependency:'.($type===null ? $id : "$type:$id");
+        return '__flushableDependency__'.($type===null ? $id : "{$type}_{$id}");
     }
 }
