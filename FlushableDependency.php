@@ -30,7 +30,7 @@
  * 'import' section of your main.php configuration file.
  *
  * @author Michael Härtl <haertl.mike@gmail.com>
- * @version 1.1.1
+ * @version 1.1.2
  */
 class FlushableDependency extends CCacheDependency
 {
@@ -44,8 +44,7 @@ class FlushableDependency extends CCacheDependency
      * Allows to use the same $id among different $types.
      */
     public $type;
-    
- 
+
     /**
      * Constructor.
      * @var mixed $id a unique identifier for the cached content (e.g. the Pk)

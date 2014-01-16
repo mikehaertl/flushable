@@ -59,6 +59,10 @@ With a call to `flushItem()` you will create such an expiration entry in the cac
 
 ## Changelog
 
+### Release 1.1.2 (IMPORTANT: This update requires to flush your cache!)
+
+* Changed dependency keys to work flawlessly with file caches (Thanks yiqing-95).
+
 ### Release 1.1.1
 
 * Changed dependency value from `time()` to `microtime()` to fix timing issues in some scenarios
